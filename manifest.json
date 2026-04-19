@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "UPS Route Map",
+  "version": "0.1.0",
+  "description": "Visualize UPS package route on a world map overlay.",
+  "permissions": ["storage"],
+  "host_permissions": [
+    "https://www.ups.com/track*",
+    "https://webapis.ups.com/*",
+    "https://nominatim.openstreetmap.org/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.ups.com/track*"],
+      "js": ["injected.js"],
+      "run_at": "document_start",
+      "world": "MAIN",
+      "all_frames": false
+    },
+    {
+      "matches": ["https://www.ups.com/track*"],
+      "js": ["content.js"],
+      "run_at": "document_start",
+      "all_frames": false
+    }
+  ]
+}

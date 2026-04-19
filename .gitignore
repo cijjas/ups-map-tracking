@@ -1,0 +1,16 @@
+node_modules/
+my-video/node_modules/
+my-video/build/
+my-video/out/
+my-video/.git/
+my-video/.agent/
+my-video/.agents/
+my-video/.claude/
+my-video/.codex/
+my-video/.cursor/
+my-video/.gemini/
+my-video/.github/
+my-video/.opencode/
+my-video/demo/
+*.log
+.DS_Store
