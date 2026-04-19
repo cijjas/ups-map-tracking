@@ -4,7 +4,7 @@ Chrome extension that adds a route map overlay to UPS tracking pages.
 
 ## Demo
 
-https://github.com/user-attachments/assets/
+https://github.com/user-attachments/assets/7a8f29ae-21da-4387-95a9-f260851489d4
 
 ## Use
 
